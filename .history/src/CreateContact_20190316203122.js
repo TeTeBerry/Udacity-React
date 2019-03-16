@@ -13,11 +13,6 @@ class CreateContact extends Component {
                   name="avatarURL"
                   maxHeight={64}
                 />
-                <div className="create-contact-detail">
-                <input type="text" name="name" placeholder="Name"/>
-                <input type="text" name="email" placeholder="Email"/>
-                <button>Add Contact</button>
-               </div>
                 </form>
             </div>
         )
