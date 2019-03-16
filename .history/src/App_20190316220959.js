@@ -26,9 +26,9 @@ class App extends Component {
     }
 
     createContact(contact) {
-    ContactsAPI.create(contact).then(contact => {
-      this.setState(state => ({
-        contacts: state.contacts.concat([ contact ])
+      ContactsAPI.create(contact).then(contact => {
+        this.setState(state => ({
+          contcats:state.contacts.contact([ contact ])
         }))
       })
     }
